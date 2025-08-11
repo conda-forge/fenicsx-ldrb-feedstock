@@ -38,6 +38,7 @@ test:
     - pip
     - scifem
     - cardiac-geometriesx
+    - ukb-atlas
   imports:
     - ldrb
   source_files:
