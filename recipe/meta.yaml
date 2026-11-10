@@ -1,6 +1,6 @@
 {% set name = "fenicsx-ldrb" %}
 {% set python_min = "3.12" %}
-{% set version = "0.3.1" %}
+{% set version = "0.4.2" %}
 
 package:
   name: "{{ name|lower }}"
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/fenicsx_ldrb-{{ version }}.tar.gz
-  sha256: d52117e17342a9dbb500d033f1511048fdbcb1cafcb517f831721cb4caec5d54
+  sha256: d00fe5a83faea7c43abce8891f83de6425739d2882874b5b0d30776312fb1621
 
 build:
   number: 0
